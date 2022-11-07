@@ -1,0 +1,31 @@
+:root {
+    --color1: rgb(38, 41, 41);
+    --color2: rgb(27, 75, 80);
+    --font: white;
+    --hover: rgb(174, 255, 0);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--color2);
+    color: var(--font);
+    font-family: 'Overpass', sans-serif;
+}
+
+.navbar {
+    background-color: var(--color1);
+}
+
+.nav :hover {
+   background-color: var(--hover);
+}
+
+p {
+    font-size: large;
+}
+
+h2{
+    color: rgba(191, 255, 53, 0.886);
+    font-weight: bold;
+    font-size: 30pt;
+}
